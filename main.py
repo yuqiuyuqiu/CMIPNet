@@ -10,13 +10,10 @@ import cv2
 from utils.model_init import model_init
 from framework import Framework
 from utils.datasets import prepare_Beijing_dataset, prepare_TLCGIS_dataset
-<<<<<<< HEAD
+
 from networks.CMIP_dlink34net import DinkNet34_CMIPNet
 from networks.hrnet18 import CMIP_hrnet18
-=======
-from networks.exchange_dlink34net import DinkNet34_CMMPNet
-from networks.dlinknet import DinkNet34
->>>>>>> cdfcc4d8e9e92b07d598a350e9fa825b08ca2097
+
 class Logger(object):
     def __init__(self, filename="Default.log"):
         self.terminal = sys.stdout
