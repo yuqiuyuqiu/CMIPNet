@@ -1,5 +1,5 @@
 # CMIPNet
-Code for paper "Cross-Modal Information Propagation For Road Extraction"
+Code for paper "Lightweight Cross-Modal Information Measure and Propagation for Road Extraction from Remote Sensing Image and Trajectory/LiDAR" (TGRS, 2024)
 ### 1 Requirements
 ```
 numpy
